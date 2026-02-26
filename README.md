@@ -1,40 +1,62 @@
-# 👋 Hi there, I'm @Nikhiljangra07
+# Nikhil Jangra
 
-🎯 Passionate about building emotionally intelligent AI assistants  
-🧠 Currently architecting **LoRa Emotional Engine v1.0**  
-🔭 Exploring AI, psychology, and emotional modeling  
-🌱 Learning full-stack development, Python, and ML  
-💬 Ask me about: emotional AI, LoRa AI, neural trust engines  
-📫 Reach me: **nikhiljangra051@gmail.com**
+Building **LoRa** — a privacy-first emotional intelligence layer for AI.
+
+LoRa is not a chatbot. It's the decision engine that sits between users and LLMs — it decides *what* to say, *how much* to say, and *when to hold back*, before the language model ever sees the prompt.
 
 ---
 
-## 🚀 Projects
-### 💡 LoRa Emotional Engine v1.0
-> Foundational emotional state engine for AI – tracks emotions, memory, and trust  
-🔗 [View Project Repo](https://github.com/Nikhiljangra07/LoRa-emotional-engine-v1)
+### What I Built
+
+**LoRa Emotional Engine v1** — a modular emotional state engine with dual-database memory, trust calibration, and behavioral continuity across sessions.
+
+**Signal Pipeline**
+- 7 real-time analyzers: valence, arousal, expression strength, emoji sentiment, capitalization pressure, punctuation dynamics, repetition detection
+- Emotional State Interpreter with momentum tracking and dominant-emotion classification
+- EIV (Emotional Intensity Value) scoring with per-message granularity
+
+**Trust Calibration (ETV System)**
+- Beta-with-decay model for longitudinal trust estimation
+- Session-boundary updates with temporal decay on pseudo-counts
+- AVI (Appraisal Volatility Index) — emotional instability scoring using RMSSD
+- 5-band policy map gating LoRa's initiative, depth, and assertiveness
+- Grounded in: Beta-Binomial inference, affect dynamics (Jahng et al., 2008)
+
+**Appraisal Lab**
+- Pressure Engine — 6-family vector pressure model with per-family decay
+- Vector Dynamics — emotional trajectory and momentum computation
+- Mood Engine — session-level mood dominance with confidence scoring
+
+**Memory Layer (in design)**
+- Dual-database architecture: ChromaDB (emotional patterns) + FalkorDB (factual context graph)
+- 21-dimensional emotion vector encoding with block-weighted L2 normalization
+- Schema consolidation via EWMA with retrieval-induced forgetting (RIF) and anti-oscillation guards
+- Fact Anchor extraction with confidence scoring, quarantine mechanism, and relevance arbitration
+- Privacy-first: no raw transcripts stored — only numeric patterns and structured extractions survive
+- Grounded in: Fuzzy-Trace Theory (Reyna & Brainerd, 1995), Appraisal Theory (Scherer, 2001)
+
+**Engineering Discipline**
+- 1,170+ automated tests including architectural drift-prevention guards
+- Formal engineering blueprints with peer-reviewed citations
+- Feature-flagged rollouts — every new system integrates with zero disruption to existing functionality
+- Runtime invariant contracts with dev-mode validation
 
 ---
 
-## 🛠️ Tech Stack
-- Python • JavaScript • Git & GitHub  
-- VS Code • FastAPI • LangChain  
-- Emotion + Trust Scoring Logic  
-- Neural Network Math (Vectors, Derivatives)
+### Stack
+
+TypeScript · Node.js · Jest · ChromaDB · FalkorDB
 
 ---
 
-## 🧠 Currently Learning
-- 🤖 AI for emotional modeling  
-- 📊 Data Science with Pandas & NumPy  
-- 🧮 Neural Network Math (Linear Algebra, Calculus)
+### About
+
+21, self-taught. Started LoRa with no technical background. 9 months later it has formal engineering specs that cite Reyna & Brainerd, Scherer, Anderson, Jahng, and Houben — and an architecture that hasn't broken once.
+
+Not building another AI wrapper. Building the emotional cognition layer that doesn't exist yet.
 
 ---
 
-## 📈 GitHub Stats 
-![Nikhil's GitHub stats](https://github-readme-stats.vercel.app/api?username=Nikhiljangra07&show_icons=true&theme=radical)
+### Contact
 
-<!---
-Nikhiljangra07/Nikhiljangra07 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+nikhiljangra051@gmail.com
