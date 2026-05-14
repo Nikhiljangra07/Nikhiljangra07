@@ -45,8 +45,6 @@ Self-taught. Based in Vancouver.
 nikhiljangra051@gmail.com
 
 
-Not building another AI wrapper. Building the emotional cognition layer that doesn't exist yet.
-
 ---
 
 ### Contact
