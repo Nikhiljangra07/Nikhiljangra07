@@ -40,12 +40,6 @@ Self-taught. Based in Vancouver.
 
 ---
 
-## Contact
-
-nikhiljangra051@gmail.com
-
-
----
 
 ### Contact
 
