@@ -36,7 +36,7 @@ TypeScript · Node.js · Python · FastAPI · Express · ChromaDB · FalkorDB ·
 
 ## About
 
-Self-taught. Background in cognitive science and applied research. Based in Vancouver.
+Self-taught. Based in Vancouver.
 
 ---
 
