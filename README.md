@@ -1,57 +1,49 @@
 # Nikhil Jangra
 
-Building **LoRa** — a privacy-first emotional intelligence layer for AI.
+AI and ML designer. I work on system architecture, evaluation methodology, memory design, and training-data curation for LLM applications.
 
-LoRa is not a chatbot. It's the decision engine that sits between users and LLMs — it decides *what* to say, *how much* to say, and *when to hold back*, before the language model ever sees the prompt.
-
----
-
-### What I Built
-
-**LoRa Emotional Engine v1** — a modular emotional state engine with dual-database memory, trust calibration, and behavioral continuity across sessions.
-
-**Signal Pipeline**
-- 7 real-time analyzers: valence, arousal, expression strength, emoji sentiment, capitalization pressure, punctuation dynamics, repetition detection
-- Emotional State Interpreter with momentum tracking and dominant-emotion classification
-- EIV (Emotional Intensity Value) scoring with per-message granularity
-
-**Trust Calibration (ETV System)**
-- Beta-with-decay model for longitudinal trust estimation
-- Session-boundary updates with temporal decay on pseudo-counts
-- AVI (Appraisal Volatility Index) — emotional instability scoring using RMSSD
-- 5-band policy map gating LoRa's initiative, depth, and assertiveness
-- Grounded in: Beta-Binomial inference, affect dynamics (Jahng et al., 2008)
-
-**Appraisal Lab**
-- Pressure Engine — 6-family vector pressure model with per-family decay
-- Vector Dynamics — emotional trajectory and momentum computation
-- Mood Engine — session-level mood dominance with confidence scoring
-
-**Memory Layer (in design)**
-- Dual-database architecture: ChromaDB (emotional patterns) + FalkorDB (factual context graph)
-- 21-dimensional emotion vector encoding with block-weighted L2 normalization
-- Schema consolidation via EWMA with retrieval-induced forgetting (RIF) and anti-oscillation guards
-- Fact Anchor extraction with confidence scoring, quarantine mechanism, and relevance arbitration
-- Privacy-first: no raw transcripts stored — only numeric patterns and structured extractions survive
-- Grounded in: Fuzzy-Trace Theory (Reyna & Brainerd, 1995), Appraisal Theory (Scherer, 2001)
-
-**Engineering Discipline**
-- 1,170+ automated tests including architectural drift-prevention guards
-- Formal engineering blueprints with peer-reviewed citations
-- Feature-flagged rollouts — every new system integrates with zero disruption to existing functionality
-- Runtime invariant contracts with dev-mode validation
+My approach draws on cognitive science — appraisal theory, gist-based memory, mood-congruent retrieval — translated into working architecture.
 
 ---
 
-### Stack
+## Current work
 
-TypeScript · Node.js · Jest · ChromaDB · FalkorDB
+LoRa — a multi-service AI reasoning system, live with paying users.
+
+Areas I designed:
+
+- **System architecture** — TypeScript/Express backend, Python FastAPI inference microservice, multi-database memory layer, identity-enforcement layer
+- **Memory architecture** — Dual-database design combining a vector store (ChromaDB) for emotion-anchored retrieval and a graph store (FalkorDB) for fact storage. Per-message retrieval via fingerprint similarity, end-of-session LLM consolidation, structured fact extraction
+- **Evaluation methodology** — Pre-registered probe sets, multi-dimensional rubrics, blind multi-model scoring with rubric-bias disclosure
+- **Identity and safety design** — Behavioral principles, structured guard patterns, calibrated response policies across user tiers
+- **Training-data methodology** — Cross-civilizational pattern-extraction with evidence-boundary discipline (a 4-field JSON structure distinguishing observable facts from inferential claims)
+
+Grounded in research literature including Fuzzy-Trace Theory (Reyna & Brainerd, 1995), Appraisal Theory (Scherer, 2001), and affect-dynamics work (Jahng et al., 2008).
 
 ---
 
-### About
+## How I work
 
-21, self-taught. Started LoRa with no technical background. 9 months later it has formal engineering specs that cite Reyna & Brainerd, Scherer, Anderson, Jahng, and Houben — and an architecture that hasn't broken once.
+I don't write code. AI-assisted development tools handle implementation. Architectural and methodological decisions are mine.
+
+---
+
+## Stack
+
+TypeScript · Node.js · Python · FastAPI · Express · ChromaDB · FalkorDB · Anthropic SDK · Stripe · Supabase
+
+---
+
+## About
+
+Self-taught. Background in cognitive science and applied research. Based in Vancouver.
+
+---
+
+## Contact
+
+nikhiljangra051@gmail.com
+
 
 Not building another AI wrapper. Building the emotional cognition layer that doesn't exist yet.
 
