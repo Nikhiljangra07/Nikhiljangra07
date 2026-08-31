@@ -12,7 +12,7 @@ repo below carries its full run record, failures included.
 | Claim | Number | Where |
 |---|---|---|
 | Verification harness lifts a 4B model on strict grounding | **0/16 → 6/16 certified-clean, p≈0.008** | [cube-program](https://github.com/Nikhiljangra07/cube-program) |
-| Fine-tuned 32B MoE beats a frontier model on its target objective | **4.90 vs 4.75 vs Claude Haiku 4.5** (blind judge) | [divergence-formula](https://github.com/Nikhiljangra07/divergence-formula) |
+| Fine-tuned 32B MoE edges Claude Haiku 4.5 on its one target metric | **4.90 vs 4.75** on strategy distinctness (blind judge) | [divergence-formula](https://github.com/Nikhiljangra07/divergence-formula) |
 | Valence from voice — the axis handcrafted features can't reach | **CCC 0.06 → 0.35 → 0.705** (46k held-out clips) | [voice-emotion-engine](https://github.com/Nikhiljangra07/voice-emotion-engine) |
 | Production LLM pipeline, 3 calls → 1 behind a frozen contract | **9–12s → 3–4s at ~$0.008/msg** | [LoRa](https://github.com/Nikhiljangra07/LoRa-EmotionalEngine-v1) |
 
@@ -47,8 +47,8 @@ Model: [wavlm-large-emotion-vad](https://huggingface.co/Nikhil0097/wavlm-large-e
 ### 🔱 [divergence-formula](https://github.com/Nikhiljangra07/divergence-formula) — training divergent specialist models
 Distilled a multi-agent system's core operation into a trainable criterion, then fine-tuned two
 open models to **refract** hard decisions into 4 distinct viable strategies: a 3.4B dense
-proof-of-concept and a 32B/9B-active hybrid Mamba+MoE that beats Claude Haiku 4.5 on distinctness
-(blind neutral judge). Eight documented training rounds including the negative results (capacity
+proof-of-concept and a 32B/9B-active hybrid Mamba+MoE that edges Claude Haiku 4.5 on the single metric it was
+trained for — strategy distinctness, 4.90 vs 4.75 (blind neutral judge). Eight documented training rounds including the negative results (capacity
 entanglement, DPO refutation — the failed adapter is published as evidence). Budget ~$175.
 Models: [refract-hsmall-blend2](https://huggingface.co/Nikhil0097/refract-hsmall-blend2) ·
 [refract-granite-3.4b-v5](https://huggingface.co/Nikhil0097/refract-granite-3.4b-v5).
@@ -64,7 +64,8 @@ the repo. The wandering-room pipeline is the part that works today.
 - **Verification before claims** — pre-registration, frozen harnesses, blind judges, external audit;
   contaminated results get excluded and said so.
 - **Failures are data** — negative results published at equal weight with wins, in every repo.
-- **Specialists over generalists** — small models beating frontier models in one lane, on purpose.
+- **Specialists over generalists** — training small open models to win one narrow, measured lane,
+  and stating exactly which lane and by how much.
 - **Production discipline** — CI on every push, incident logs with root causes, resumable pipelines,
   security hardening, fail-open degradation.
 
