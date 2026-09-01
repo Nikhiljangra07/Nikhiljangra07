@@ -18,13 +18,13 @@ repo below carries its full run record, failures included.
 
 ## Projects
 
-### 📐 [cube-program](https://github.com/Nikhiljangra07/cube-program) — pre-registered, externally audited evaluation study
-Can architecture substitute for scale in small LLMs? 23 runs. Success criteria frozen in runbooks
+### 📐 [cube-program](https://github.com/Nikhiljangra07/cube-program) — pre-registered, twice externally audited evaluation study
+Can architecture substitute for scale in small LLMs? 24 runs. Success criteria frozen in runbooks
 before any compute was spent; the eval harness git-frozen before the third-party-authored holdout
-existed; two LLM-judge families at 97.9% agreement; independent adversarial audit — all 8 findings
-and dispositions published. The grounding result held (0/16 → 6/16 certified-clean, paired p≈0.008;
+existed; two LLM-judge families at 97.9% agreement; two independent adversarial audits — all 18 findings (8 + 10)
+and dispositions published, including a pre-committed claim retracted after the second audit. The grounding result held (0/16 → 6/16 certified-clean, paired p≈0.008;
 5–2 on the holdout). The pre-registered transfer claim **failed** — reported at equal weight, with
-the residual failure diagnosed. Total spend ~$207.
+the residual failure diagnosed. Total spend ~$209.
 
 ### 🧭 [LoRa](https://github.com/Nikhiljangra07/LoRa-EmotionalEngine-v1) — production AI product, built and operated solo
 Analytical reasoning partner ("analysis, not validation"), public beta at [asklora.io](https://asklora.io)
