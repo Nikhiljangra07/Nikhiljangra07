@@ -2,7 +2,7 @@
 
 **AI engineer. I ship LLM products to production.** Building and running [asklora.io](https://asklora.io), an analytical-reasoning assistant: Python/FastAPI + TypeScript/Node, model routing across OpenAI, Anthropic and Google, agents with tool calling, vector + graph RAG, Stripe billing, CI/CD, on-call. Public beta with ~40 users, spring 2026.
 
-Open to AI engineering roles in Canada (Metro Vancouver or remote). 📫 nikhiljangra051@gmail.com · 🤗 [huggingface.co/Nikhil0097](https://huggingface.co/Nikhil0097) · [[linkedin.com/in/nikhil-7b7b1221a](https://www.linkedin.com/in/nikhil-jangra-7b7b1221a/)](https://linkedin.com/in/nikhil-7b7b1221a)
+Open to AI engineering roles in Canada (Metro Vancouver or remote). 📫 nikhiljangra051@gmail.com · 🤗 [huggingface.co/Nikhil0097](https://huggingface.co/Nikhil0097) · [(https://www.linkedin.com/in/nikhil-jangra-7b7b1221a/)](https://linkedin.com/in/nikhil-7b7b1221a)
 
 > Legal name is the single given name Nikhil, recorded as "Nikhil Nikhil" on official documents. Professionally I go by Nikhil Jangra.
 
